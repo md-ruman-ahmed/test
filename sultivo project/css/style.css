@@ -1,0 +1,520 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    outline: 0;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+img{
+    vertical-align: middle;
+}
+ol,ul,li{
+    list-style: none;
+}
+#heading{
+    background: rgb(245, 16, 16);
+    height: 50px;
+}
+a{
+    text-decoration: none;
+}
+.heading .row{
+    display: flex;
+}
+.header{
+    display: flex;
+}.icon-part {
+    margin-left: 70px;
+}
+.icon-part i{
+    padding: 10px;
+}
+.header .ii{
+    /* color: red; */
+    text-align: center;
+    padding: 12px 10px;
+}
+
+.col-lg-1 .header h1{
+    color: #fff;
+    padding: 12px 0;
+    font-size: 16px;
+}
+.gmail{
+    color: #fff;
+    padding: 8px;
+}
+.gmail{
+    margin-top: -5px;
+}
+
+
+.get{
+    background: rgb(43, 10, 228);
+    width: 170px;
+    height: 50px;
+    padding: 12px 0;
+    font-size: 16px;
+}
+
+.get a {
+    color:#fff;
+    margin-left: 35px;
+}
+
+/* navber part start */
+.menu{
+    display: flex;
+    /* margin-left: 100px; */
+    /* background: #000; */
+    text-align: end;
+    justify-content: flex-end;
+}
+.menu li a{
+    padding: 20px;
+    font-size: 16px;
+  
+}
+.phone-number{
+    /* width: 300px; */
+    display: flex;
+    /* background-color: blueviolet; */
+    color: red;
+    justify-content: end;
+}
+.phone-number .coll{
+    margin-top: 0px;
+    padding: 16px;
+}
+.phone-number p{
+    color:red;
+}
+
+
+/* banner part start */
+#banner-part .bg-image{
+    position: relative;
+}
+.banner{
+    padding-bottom: 200px;
+    padding-top: 150px;
+}
+.banner h1{
+    color: rgb(6, 6, 8);
+    font-size: 80px;
+    padding: 30px 0;
+}
+.banner h2{
+    color: red;
+    font-size: 70px;
+}
+.banner input{
+    width: 600px;
+    height: 80px;
+    border-radius: 50px;
+    padding-left: 20px;
+    background: #fff;
+    border: none;
+}
+.banner button {
+    padding: 17px 30px;
+    border-radius: 40px;
+    background: rgb(228, 35, 35);
+    margin-left: -203px;
+}
+.banner input::placeholder{
+    color: #000;
+}
+#banner-part .bg-image .gape {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -10;
+    /* background-color: rgb(141, 115, 115); */
+}
+#banner-part .gape img {
+    width: 610px;
+    height: 700px;
+    padding: 50px 0;
+}
+/* banner part start */
+#part-33{
+    background-color: rgb(43, 5, 78);
+}
+
+
+.video-part{
+    /* background-color: blueviolet; */
+    height: 570px;
+    padding-top: 120px;
+    color: #fff;
+}
+.video-part h1{
+    font-size: 50px;
+}
+.video-part h2{
+    font-size: 40px;
+    padding-bottom: 75px;
+}
+.videos{
+    width: 400px;
+    height: 140px;
+    background-color: rgb(4, 4, 46);
+    margin-bottom: -60px;
+    margin-top: -20px;
+    /* margin-left: 50px; */
+    color: #fff;
+    padding: 45px;
+    display: flex;
+}
+   
+.videos h5{
+    font-size: 20px;
+    margin: 10px;
+}
+.videos a{
+    margin-left: 50px;
+}
+.writen{
+    /* background-color: black; */
+    height: 570px;
+    padding: 120px 0;
+    color: #fff;
+}
+.writen h1{
+    padding: 10px;
+}
+
+/* part 4 */
+#service{
+    position: relative;
+    padding: 100px 0;
+}
+#service::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    background: rgba(245, 230, 230, 0.623);
+    width: 35%;
+    height: 100%;
+    z-index: -1;
+
+}
+.part-4{
+    padding: 100px 40px;
+    background: #fff;
+    /* box-shadow: 0px 10px 10px 20px rgb(212, 212, 212); */
+    /* margin: 100px 0; */
+}
+.redio{
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    gap: 20px;
+}
+.redio img{
+    width: 52px;
+    height: 52px;
+}
+
+/* counter part */
+.counterr{
+    background-color: rgb(10, 10, 70);
+    padding: 40px 0;
+    display: flex;
+}
+.coun{
+    text-align: center;
+    color: #fff;
+}
+/* counter part */
+/* part 5 */
+#appruch{
+    
+    padding-top: 120px;
+}
+#appruch h5{
+    text-align: center;
+}
+#appruch h1{
+    padding: 20px 0;
+    text-align: center;
+}
+.part-5{
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    /* background-color: blueviolet; */
+}
+.image{
+    width: 350px;
+    height: 225px;
+    width: 100%;
+    background-color: blueviolet;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+}
+.image:hover img{
+    transform: scale(1.3);
+    transition:all linear .3s;
+    transform:3s ;
+}
+.image-part {
+    /* background-color: red; */
+    width: 340px;
+}
+.image-part p{
+    padding-top: 20px;
+}
+.image-part h2{
+    padding: 10px 0;
+}
+.image-part h6{
+    padding: 10px 0;
+}
+
+/* part 6 */
+#part-6{
+    background-color: rgb(92, 77, 77);
+    height: 700px;
+}
+
+.writepart{
+    color: #fff;
+    padding: 140px 0;
+
+}
+.writepart h1{
+    padding: 10px 0;
+    font-size: 40px;
+}
+.writepart h2{
+    color: red;
+    font-size: 50px;
+    padding: 10pz 0;
+}
+.writepart button{
+    padding: 15px 30px;
+    border-radius: 50px ;
+    background: none;
+    color: #fff;
+    border-color: brown;
+    font-size: 20px;
+    margin-top: 20px;
+}
+/* part 6 */
+
+/* part 7*/
+#expent-part {
+    padding: 110px 0;
+}
+#expent-part h5{
+    text-align: center;
+    color: rgb(214, 69, 69);
+}
+#expent-part h1{
+    text-align: center;
+    /* color: #fff; */
+    font-size: 60px;
+    padding: 20px 0;
+}
+
+.teampart{
+    width: 256px;
+   
+}
+.teampart .photo img{
+    width: 100%;
+    height: 100%;
+    width: 250px;
+    height: 300px;
+}
+
+.teampart p{
+    margin-top: 20px;
+}
+.teampart h2{
+    font-size: 24px;
+    padding:  0;
+}
+/* part 7*/
+/* part 8*/
+#part-8{
+    background-color: rgb(48, 60, 114);
+    height: 180px;
+}
+.iconer{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 0;
+}
+/* part 8*/
+
+/* part 9*/
+.part-9{
+    color: #000;
+    padding-top: 120px;
+    padding-bottom: 40px;
+}
+.part-9 h1{
+    font-size: 50px;
+}
+/* part 9*/
+
+/* slade part */
+.slidepart{
+    padding: 20px;
+}
+.slidepart p{
+    color:red;
+}
+.slidepart button{
+    background-color: red;
+    padding: 10px 20px;
+    border-radius: 50%;
+}
+.slide-image img{
+    width: 80%;
+    height: 80%;
+    height: 400px;
+    padding: 10px;
+}
+.sb{
+    display: flex;
+    margin-left: 100px;
+    gap: 20px;
+}
+/* slade part */
+
+/* part 10*/
+
+#part-10{
+    padding: 100px 0;
+}
+.chose{
+    padding-left: 20px;
+}
+.chose h2{
+    font-size: 50px;
+}
+.imagepart{
+    width: 550px;
+    height: 525px;
+    
+}
+.imagepart img{
+    width: 100%;
+    height: 525px;
+}
+.truct{
+    display: flex;
+    gap: 20px;
+    /* padding: 10px 0; */
+    margin: 10px 0;
+}
+.truct:hover{
+    background-color: aquamarine;
+    box-shadow: 0 0 5px 0;
+}
+.photoicon{
+    border: 2px solid rgb(133, 167, 240);
+    border-radius: 50px;
+    height: 60px;
+    margin-top: 15px;
+    
+}
+.tructed h1{
+    font-size: 30px;
+}
+.photoicon img{
+    padding: 10px;
+}
+
+/* part 10*/
+/* part 11*/
+.part-11{
+    background-color: rgb(107, 107, 207);
+    height: 410px;
+}
+.news{
+    /* color: #fff; */
+    padding: 80px;
+}
+.news p{
+    color: #fff;
+    /* font-size: 52px; */
+}
+.news h1{
+    color: #fff;
+    font-size: 52px;
+}
+.subscribe-btn{
+    display: flex;
+    /* border-radius: 50%; */
+    padding: 20px 0;
+}
+.subscribe-btn input{
+    padding: 20px;
+    border-radius: 50px;
+    width: 550px;
+    position: relative;
+}
+
+
+.subscribe-btn button {
+    padding: 20px 30px;
+    border-radius: 50px;
+    width: 163px;
+    position: absolute;
+    margin-left: 331px;
+    background-color: red;
+}
+.endimage{
+    /* width: 100%; */
+    height: 410px;
+}
+.endimage img{
+    width: 100%;
+    height: 100%;
+    height: 410px;
+
+}
+/* part 11*/
+/* part 12*/
+#end{
+    background-color: #002e5b;
+    gap: 10px;
+    padding: 80px 0;
+}
+#end .row{
+    justify-content: space-between;
+}
+
+.ender h1{
+    color: #fff;
+}
+.ender p{
+    color: rgb(6, 6, 15);
+}
+.ses h1,p{
+    gap: 10px;
+    padding:10px 0 ;
+}
+.phoneservise{
+    display: flex;
+}
+/* part 12*/
+
+
+
+
+
