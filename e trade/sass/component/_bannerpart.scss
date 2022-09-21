@@ -1,0 +1,113 @@
+#banner-part{
+    .banner-part{
+        .banner-btn{
+            border: 1px solid rgb(44, 38, 38);
+            li{
+                // background-color: blueviolet;
+                padding: 7px;
+                display: flex;
+                position: relative;
+                a{
+                    border: 0 0 1px red 0;
+                    padding: 8px 20px;
+
+                    span{
+                        padding: 0 10px;
+                        img{
+                            width:30px;
+                            height: 23px;
+                        }
+                        .f-name{
+                            font-size: 14px;
+                        }
+                    }
+                    .submenu{
+                        position: absolute;
+                        background: #000;
+                        display: flex;
+                    }
+                }
+            }
+        }
+        .banner-service{
+            // background: #000;
+        
+            .b-1{
+                border-radius: 5px;
+                margin: 50px 10px 0 30px;
+                padding: 50px 0;
+                background: rgba(243, 237, 237, 0.705);
+                position: relative;
+                z-index: -1;
+                &::after{
+                    content: "";
+                    width: 250px;
+                    height: 250px;
+                    background: #fff;
+                    position: absolute;
+                    z-index: -1;
+                    border-radius: 50%;
+                    top: 20%;
+                    right: 28%;
+                }
+           
+                .title{
+                    flex-wrap: wrap;
+                    p{
+                        padding-bottom: 10px;
+                    }
+                    padding:0 30px;
+                    h1{
+                        padding: 20px 0;
+                        font-size: 60px;
+                        height: 60px;
+                        flex-wrap: wrap;
+                    }
+                    .shop-btn{
+                        margin-top: 160px;
+                        a{
+                            text-decoration: underline;
+                            font-size: 18px;
+                            margin: 10px 0;
+                            span{
+                                padding: 0 5px;
+                            }
+                        }
+                    }
+                }
+                .watch{
+                    padding: 40px 0;
+                }
+            }
+            .b-2{
+                margin: 50px 0;
+                padding: 40px 30px;
+                border-radius: 5px;
+                background: rgba(238, 232, 232, 0.705);
+                z-index: 1;
+                position: relative;
+                &::after{
+                    content: "";
+                    width: 150px;
+                    height: 250px;
+                    background: #fff;
+                    position: absolute;
+                    z-index: -1;
+                    border-radius: 50%;
+                    top: 15%;
+                    right: 10%;
+                }
+                img{
+                    margin: 21px 0;
+                }
+                p{
+                    text-align: center;
+                    padding: 10px 0;
+                }
+                h1{
+                    padding: 10px 0;
+                }
+            }
+        }
+    }
+}

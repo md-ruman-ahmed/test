@@ -1,0 +1,297 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: "DM sans, sans-serif";
+}
+
+ul, li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.container {
+  width: 1320px;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  padding: 0;
+  margin: 0;
+  line-height: 100%;
+}
+
+.get-offer {
+  background: url(../image/campaign-bg2.png);
+  padding: 8px 0;
+  position: relative;
+}
+.get-offer p {
+  color: rgb(214, 194, 194);
+  gap: 10px;
+}
+.get-offer p span {
+  color: #fff;
+}
+.get-offer p a {
+  text-decoration: underline;
+  color: #fff;
+}
+.get-offer .close-btn {
+  position: absolute;
+  padding: 3px 10px;
+  border-radius: 50%;
+  right: 20px;
+  top: 50%;
+  text-align: center;
+  align-items: center;
+  transform: translateY(-50%);
+}
+
+#part2 {
+  padding: 50px 0;
+}
+#part2 .search-icon {
+  width: 650px;
+  height: 40px;
+  justify-content: space-between;
+  border: 1px solid red;
+}
+#part2 .search-icon i {
+  padding: 10px;
+}
+#part2 .search-icon .search-input {
+  width: 600px;
+  height: 28px;
+  border: none;
+  margin-top: -2px;
+}
+#part2 .drop {
+  display: flex;
+  gap: 30px;
+  margin-left: -50px;
+}
+#part2 .drop .dd {
+  padding: 5px 12px;
+}
+#part2 .drop .dropdown-menu {
+  margin-left: -100px;
+}
+#part2 .drop .dropdown-menu .dropdown-item {
+  max-width: 30px;
+}
+
+#nav {
+  background: rgb(213, 231, 231);
+}
+#nav .navber .catagori {
+  background-color: blue;
+  padding: 16px 30px;
+  display: flex;
+  text-align: center;
+  padding-left: 60px;
+  gap: 20px;
+}
+#nav .navber .catagori span {
+  color: #fff;
+  font-size: 16px;
+}
+#nav .navber .menu .btn-group ul {
+  display: flex;
+  gap: 30px;
+}
+#nav .navber .menu .btn-group ul li {
+  position: relative;
+  padding: 5px 10px;
+}
+#nav .navber .menu .btn-group ul li a {
+  color: #000;
+  font-size: 20px;
+  position: relative;
+}
+#nav .navber .icon-part {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+#nav .navber .icon-part i {
+  padding: 10px;
+  font-size: 30px;
+}
+
+#banner-part .banner-part .banner-btn {
+  border: 1px solid rgb(44, 38, 38);
+}
+#banner-part .banner-part .banner-btn li {
+  padding: 7px;
+  display: flex;
+  position: relative;
+}
+#banner-part .banner-part .banner-btn li a {
+  border: 0 0 1px red 0;
+  padding: 8px 20px;
+}
+#banner-part .banner-part .banner-btn li a span {
+  padding: 0 10px;
+}
+#banner-part .banner-part .banner-btn li a span img {
+  width: 30px;
+  height: 23px;
+}
+#banner-part .banner-part .banner-btn li a span .f-name {
+  font-size: 14px;
+}
+#banner-part .banner-part .banner-btn li a .submenu {
+  position: absolute;
+  background: #000;
+  display: flex;
+}
+#banner-part .banner-part .banner-service .b-1 {
+  border-radius: 5px;
+  margin: 50px 10px 0 30px;
+  padding: 50px 0;
+  background: rgba(243, 237, 237, 0.705);
+  position: relative;
+  z-index: -1;
+}
+#banner-part .banner-part .banner-service .b-1::after {
+  content: "";
+  width: 250px;
+  height: 250px;
+  background: #fff;
+  position: absolute;
+  z-index: -1;
+  border-radius: 50%;
+  top: 20%;
+  right: 28%;
+}
+#banner-part .banner-part .banner-service .b-1 .title {
+  flex-wrap: wrap;
+  padding: 0 30px;
+}
+#banner-part .banner-part .banner-service .b-1 .title p {
+  padding-bottom: 10px;
+}
+#banner-part .banner-part .banner-service .b-1 .title h1 {
+  padding: 20px 0;
+  font-size: 60px;
+  height: 60px;
+  flex-wrap: wrap;
+}
+#banner-part .banner-part .banner-service .b-1 .title .shop-btn {
+  margin-top: 160px;
+}
+#banner-part .banner-part .banner-service .b-1 .title .shop-btn a {
+  text-decoration: underline;
+  font-size: 18px;
+  margin: 10px 0;
+}
+#banner-part .banner-part .banner-service .b-1 .title .shop-btn a span {
+  padding: 0 5px;
+}
+#banner-part .banner-part .banner-service .b-1 .watch {
+  padding: 40px 0;
+}
+#banner-part .banner-part .banner-service .b-2 {
+  margin: 50px 0;
+  padding: 40px 30px;
+  border-radius: 5px;
+  background: rgba(238, 232, 232, 0.705);
+  z-index: 1;
+  position: relative;
+}
+#banner-part .banner-part .banner-service .b-2::after {
+  content: "";
+  width: 150px;
+  height: 250px;
+  background: #fff;
+  position: absolute;
+  z-index: -1;
+  border-radius: 50%;
+  top: 15%;
+  right: 10%;
+}
+#banner-part .banner-part .banner-service .b-2 img {
+  margin: 21px 0;
+}
+#banner-part .banner-part .banner-service .b-2 p {
+  text-align: center;
+  padding: 10px 0;
+}
+#banner-part .banner-part .banner-service .b-2 h1 {
+  padding: 10px 0;
+}
+
+#service .service {
+  display: flex;
+  justify-content: space-between;
+}
+#service .delivary {
+  width: 240px;
+  height: 285px;
+  border: 1px solid rgb(231, 219, 219);
+  padding: 30px 0;
+  border-radius: 5px;
+}
+#service .delivary img {
+  padding: 25px 0;
+}
+#service .delivary p {
+  font-size: 25px;
+}
+
+#product {
+  padding: 70px 0;
+}
+#product .slide-arrow {
+  display: flex;
+  gap: 20px;
+}
+#product .slide-arrow .next {
+  padding: 15px 25px;
+  background: rgb(230, 219, 219);
+}
+#product .slide-arrow .prev {
+  padding: 15px 25px;
+  background: rgb(230, 219, 219);
+}
+#product .ruman {
+  padding: 50px 0;
+}
+#product .ruman .product {
+  margin: 20px;
+  transition: all linear 0.3s;
+}
+#product .ruman .producthover img {
+  transform: translatey(-10px) rotate(5 deg);
+}
+#product .ruman .product h3 {
+  padding: 20px 0;
+}
+#product .ruman .product img {
+  width: 100%;
+  height: 100%;
+  border: 5px;
+}
+#product .product-2 {
+  padding: 50px 0;
+}
+#product .product-2 .nextarr {
+  padding: 15px 25px;
+  background: rgb(230, 219, 219);
+}
+#product .product-2 .prevarr {
+  padding: 15px 25px;
+  background: rgb(230, 219, 219);
+}
+#product .ruman-2 .product {
+  background: #000;
+}/*# sourceMappingURL=style.css.map */

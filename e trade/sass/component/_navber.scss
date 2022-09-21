@@ -1,0 +1,48 @@
+#nav{
+    background: rgb(213, 231, 231);
+    .navber{
+        .catagori{
+            background-color: blue;
+            padding: 16px 30px;
+            display: flex;
+            text-align: center;
+            padding-left: 60px;
+            gap: 20px;
+            span{
+                color: #fff;
+                font-size: 16px;
+                
+            }
+        }
+        .menu{
+            .btn-group{
+                ul{
+                    display: flex;
+                    gap: 30px;
+                  
+                    li{
+                        // background: red;
+                        position: relative;
+                        padding: 5px 10px;
+                        a{
+                            color: #000;
+                            font-size: 20px;
+                            position: relative;
+                        }
+                       
+                    }
+                }
+            }
+        }
+        .icon-part{
+            display: flex;
+            justify-content: flex-end;
+            gap: 10px;
+            i{
+                padding: 10px;
+                font-size: 30px;
+            }
+        }
+    }
+ 
+}
